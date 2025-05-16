@@ -3,13 +3,12 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);  
 
-String text = "I am Aayush   ";  
-
 void setup() {
   lcd.init();
   lcd.backlight();
-  lcd.print(text);  
-  delay(1000);      
+  lcd.setCurso(5, 0);
+  lcd.print("Scrolling");  
+  delay(1500);      
 }
 
 void loop() {

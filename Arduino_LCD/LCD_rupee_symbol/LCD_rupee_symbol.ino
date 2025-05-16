@@ -12,7 +12,7 @@ byte rupee[8] = {
   B11000,  
   B01100,  
   B00111   
-};
+};    
 
 
 void setup() {
